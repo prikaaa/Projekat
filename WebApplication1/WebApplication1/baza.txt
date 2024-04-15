@@ -1,0 +1,46 @@
+create table DeloviAutomobila
+(
+
+    id int primary key not null,
+    naziv varchar(70) not null,
+    proizvodjac varchar(70) not null,
+    model varchar(70),
+    godina_proizvodnje int,
+    cena float,
+    kolicina_na_skladistu int,
+    kategorija varchar(50)
+
+)
+
+
+
+insert into DeloviAutomobila values(1,'Standardna Svecica','Iridium','A56B2',2023,2500,1000,'Svecice')
+insert into DeloviAutomobila values(2,'Platina Svecica','Iridium','P25F1',2024,3700,500,'Svecice')
+insert into DeloviAutomobila values(3,'V-Line Svecica','NBK','VTL2',2022,1400,800,'Svecice')
+insert into DeloviAutomobila values(4,'Standardna Svecica','ATM','A2L',2021,800,1500,'Svecice')
+insert into DeloviAutomobila values(5,'Standardna Svecica','NBK','STT1',2023,600,1200,'Svecice')
+insert into DeloviAutomobila values(6,'V-Line Svecica','Iridium','V98K2',2024,2900,750,'Svecice')
+insert into DeloviAutomobila values(7,'Platina Svecica','ABT','ABT1S',2024,4000,350,'Svecice')
+insert into DeloviAutomobila values(8,'Standardna Svecica','NBK','STT3',2024,700,1000,'Svecice')
+insert into DeloviAutomobila values(9,'Standardna Svecica','Iridium','A58A1',2022,2550,950,'Svecice')
+
+insert into DeloviAutomobila values(10,'Standardni FIlter','FIltron','F56',2023,800,1700,'Filter za vazduh')
+insert into DeloviAutomobila values(11,'Standardni FIlter','Febi','B6',2022,1200,2000,'Filter za vazduh')
+insert into DeloviAutomobila values(12,'Sportski FIlter','Bilstein','B12',2024,1500,850,'Filter za vazduh')
+insert into DeloviAutomobila values(13,'Sportski FIlter','Bluemoon','LKP22',2024,1300,770,'Filter za vazduh')
+insert into DeloviAutomobila values(14,'Standardni FIlter','FIltron','F57',2021,850,1200,'Filter za vazduh')
+
+insert into DeloviAutomobila values(20,'Motorno ulje','Castrol','Edge E40',2023,4500,200,'Motorno ulje')
+insert into DeloviAutomobila values(21,'Motorno ulje','ABT','ABT16',2024,6500,150,'Motorno ulje')
+insert into DeloviAutomobila values(22,'Motorno ulje','Alpina','B5',2023,8700,100,'Motorno ulje')
+insert into DeloviAutomobila values(23,'Motorno ulje','Nissan','NKS1',2022,5000,250,'Motorno ulje')
+insert into DeloviAutomobila values(24,'Motorno ulje','BMW','N56',2023,6000,120,'Motorno ulje')
+
+insert into DeloviAutomobila values(30,'Filter kabine','FIltron','I10',2023,350,900,'Filteri kabine')
+insert into DeloviAutomobila values(31,'Filter kabine','Febi','FI20',2024,500,750,'Filteri kabine')
+insert into DeloviAutomobila values(32,'Filter kabine','Bluemoon','BINK2',2023,600,1000,'Filteri kabine')
+
+
+insert into DeloviAutomobila values(40,'Standardna bobina','Renault','GKR21',2024,9000,300,'Bobine')
+insert into DeloviAutomobila values(41,'Sportska bobina','Audi','RSF7',2023,14500,150,'Bobine')
+insert into DeloviAutomobila values(42,'Standardna bobina','Kingstorm','K257',2024,7500,500,'Bobine')
